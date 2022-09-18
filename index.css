@@ -15,7 +15,6 @@ div.background{
         background-position: center;
     
 }
-
 div.textwrap{
     padding: auto;
     float: left;
@@ -45,22 +44,46 @@ div.content{
 }
 
 #aboutme{
-    color: #93ccea;
+    color: grey;
     font-size: 50px;
     padding-bottom: .5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .button {
-    background-color: #93ccea;
+    background-color: grey;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 17px;
+    width: 100px;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 50%;
     text-align: center;
-    text-decoration: none;
+    text-decoration: solid;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
+    font-family: "Serif", Garamond;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .button:hover, .button:focus .button:active{
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  #assignment{
+    top: 50%;
+  }
+  #syllabus{
+    top: 60%;
+  }
+  div.syllabus{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
