@@ -4,7 +4,7 @@
     resize: both;
   }
 
-.intro {
+.input {
  text-align: center;
  display: inline-block;
 background-color: lightgrey;
@@ -22,7 +22,7 @@ resize: both;
     width: 24%;
   }
 
-.Second {
+.background {
     
     padding: 20px;
     margin-left: 450px;
@@ -60,7 +60,7 @@ resize: both;
     .Second{
         margin: 0%;
     }
-    .third{
+    .border{
         margin: 0%;
     }
 }
