@@ -1,0 +1,66 @@
+* {
+    
+    box-sizing: border-box;
+    resize: both;
+  }
+
+.intro {
+ text-align: center;
+ display: inline-block;
+background-color: lightgrey;
+margin-left: 200px;
+margin-right: 200px;
+padding-bottom: 70px;
+border: 15px solid yellowgreen;
+resize: both;
+
+}
+.im {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+  }
+
+.Second {
+    
+    padding: 20px;
+    margin-left: 450px;
+    resize: both;
+    
+    }
+    
+        .header {
+            display: inline-block;
+            width: 100%;
+           
+            font-size: 10px;
+            text-align: center;
+            
+            display: inline-block;
+            background-color: lightgrey;
+           border-style: solid;
+           resize: horizontal;
+        
+            
+            
+            }
+            
+@media screen and (max-width: 800px) {
+    .header  {
+
+        margin: 0%;
+        
+                
+    }
+    .first{
+        margin : 0%;
+   
+    }
+    .Second{
+        margin: 0%;
+    }
+    .third{
+        margin: 0%;
+    }
+}
