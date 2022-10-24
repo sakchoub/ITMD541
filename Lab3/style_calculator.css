@@ -5,7 +5,8 @@
 
   .background {
     background-image: url("background.jpeg");
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 
 .input {
@@ -30,10 +31,7 @@ left: 35%;
             display: inline-block;
             background-color: rgb(52, 202, 167);
            border-style: solid;
-           resize: horizontal;
-        
-            
-            
+           resize: horizontal;  
             }
             
 @media screen and (max-width: 800px) {
