@@ -6,15 +6,10 @@
     <title>Lab3-Tip Calculator</title>
     </head>
     <body>
-    background-image: url("background.jpeg");
-    background-repeat: no-repeat, repeat;
-    background-color: #cccccc;
       <div class="header">
-    <h1>TIP CALCULATOR</h1>
-    </div>
-
-<br>
-<br>
+        <h1>TIP CALCULATOR</h1>
+        </div>
+      <div class="background">
 
 
     <div class="input">
@@ -27,10 +22,11 @@
           <br><br>
         
         <label for="tip_percent">Tip Percentage </label> 
-          <input type="range" id="tip_percent" name="tax rate" min="0" max="100"> 
+          <input type="range" id="tip_percent" name="tax rate" min="0" max="100" oninput="rangeValue.innerText = this.value"> 
+          <label id="rangeValue">100 </label> 
           <br><br>
 
-        <label for="tip_amount">Tip Amount </label> 
+        <label for="tip_amount">Tip Amount 
           <input type="number" id="tip_amount" disabled="">
           <br><br>
 
@@ -46,7 +42,7 @@
     <br>
     
     <br>
-    
+  </div>  
     <script>
       var $ = function(id) {
     return document.getElementById(id);

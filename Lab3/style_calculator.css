@@ -1,34 +1,24 @@
 * {
     
     box-sizing: border-box;
-    resize: both;
   }
+
+  .background {
+    background-image: url("background.jpeg");
+    background-size: cover;
+    }
 
 .input {
  text-align: center;
  display: inline-block;
-background-color: lightgrey;
-margin-left: 200px;
-margin-right: 200px;
-padding-bottom: 70px;
-border: 15px solid yellowgreen;
-resize: both;
-
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(235, 184, 184);
+padding: 30px;
+border: 5px solid rgb(52, 202, 167);
+position: absolute;
+top: 30%;
+left: 35%;
 }
-.im {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 24%;
-  }
-
-.background {
-    
-    padding: 20px;
-    margin-left: 450px;
-    resize: both;
-    
-    }
     
         .header {
             display: inline-block;
@@ -38,7 +28,7 @@ resize: both;
             text-align: center;
             
             display: inline-block;
-            background-color: lightgrey;
+            background-color: rgb(52, 202, 167);
            border-style: solid;
            resize: horizontal;
         
@@ -49,13 +39,10 @@ resize: both;
 @media screen and (max-width: 800px) {
     .header  {
 
-        margin: 0%;
-        
-                
+        margin: 0%;           
     }
     .first{
         margin : 0%;
-   
     }
     .Second{
         margin: 0%;
