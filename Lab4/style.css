@@ -1,89 +1,150 @@
-*{
+
+  .button{
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: rgb(248, 244, 125); 
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+    color: rgb(29, 29, 82);
+    border-radius: 20px;
+    cursor: pointer;
+    
+    
+    }
+    
+    .input
+    {
+
+        font-family: "Georgia", serif;
+        font-size: 20px;
+        background: rgb(134, 236, 247); 
+        width: 500px;
+        height: 50;
+        padding: 20px;
+        text-align: center;
+        color: rgb(29, 29, 82);
+    }
+    .title
+    {
+        background: #000000ad;
+        color: rgb(245, 180, 180);
+        max-width: 500px;
+        margin:  3em;
+       display: inline-flex;
+            text-align: center;
+            align-items: center;
+           
+         
+    }
+        
+          
+        .weekday{
+             height: auto;
+        width: 120px;
+           background: #000000ad;
+            text-align: center;
+            align-items: center;
+            display: inline-block;
+            align-content: center;
+            border-color: aliceblue;
+            
+        }
+       
+    
+   h2{
+    
+    color: #fff;
+    font-size:45px;
+          font-family: "Open Sans", sans-serif;
+    }
+    
+    body,html{
+     background-image:url("https://images.pexels.com/photos/3617500/pexels-photo-3617500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+       background-repeat:no-repeat;
+        background-size: cover;
+      font-family: "Open Sans", sans-serif;
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-}
-
-html {
-    min-height: 100%;
- }
-div.background{
-        width: 100%;
-        height: 100%;
-        background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(bg.jpeg);
-        background-size: cover; 
-        background-position: center;
+    height: 120%;
+    justify-content: center; 
+      align-items: center;
     
-}
-div.textwrap{
-    padding: auto;
-    float: left;
-    display: flex;
-}
-div.profile{
-    position: absolute;
-    top: 100px;
-    left: 100px;
-    width: 300px;
-    height: 250px;
-    color: white;
-    padding-inline: .5rem;
-}
-
-div.image{
-    display: flex;
-    padding-top: 2.5rem;
-}
-div.content{
-    position: absolute;
-    width: 350px;
-    top: 100px;
-    right: 100px;
-    height: 150px;
-    color: white;
-}
-
-#aboutme{
-    color: grey;
-    font-size: 50px;
-    padding-bottom: .5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.button {
-    background-color: grey;
-    border: none;
-    color: white;
-    padding: 17px;
-    width: 120px;
-    position: absolute;
-    top: 40%;
-    right: 50%;
-    text-align: center;
-    text-decoration: solid;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "Serif", Garamond;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  .button:hover, .button:focus .button:active{
-
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    
+    .button:hover, .button:focus, .button:active
+    {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-  }
-  #assignment{
-    top: 50%;
-  }
-  #syllabus{
-    top: 60%;
-  }
-  div.syllabus{
-    color: white;
-    position: absolute;
-    top: 50px;
-    left: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+    
+    }
+        
+    .weather_data
+        {   
+     width: 100%;
+      display:block;
+       align-items: center;
+            text-align: center;
+        }
+          
+    .wheather {
+       
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .location {
+        font-size: 40px;
+    }
+    
+    .description {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .day {
+        display: inline-flex;
+    }
+        
+        
+    .icon    {
+        margin-left: 32px;
+        padding: 20px 20px; 
+        height: 120px;
+        width: 120px;
+    }
+        
+        
+       .weather {
+           
+           width: inherit;
+           height: auto;
+        }
+        
+ 
+        .imagejs{
+             height: 75px;
+             width: 75px;
+            margin-left: 20px;
+             margin-right: 20px;
+        padding: 5px 5px; 
+             text-align: center;
+            align-content: center;
+            
+        }
+        
+        .textjs {
+              display: block;
+            width: 100%;
+        font-size: 11px;
+            font-weight: bold;
+      align-items: center;
+            text-align: center;
+        text-decoration-color:azure;
+        padding-left: 5;
+            padding-top: 5;
+           color: #fff;
+            
+    }

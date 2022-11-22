@@ -1,20 +1,73 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-    <title>
-        Lab 4
-    </title>
-    <link rel="stylesheet" href="index.css">
+<link href="https://fonts.googleapis.com/css2?family=OpenSans:wght@400;700&display=swap" >
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src = "fetchweatherapi.js"></script>
+
 </head>
+
 <body>
-    <div class="background">
-       <img src="bg.jpeg"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<div class="row">
+<div id = "mainpage" class="weather_data">
 
-<div class="button">
-
-
-        <a href="index.html" class="button" id="home"> Search</a>
-</div> 
+    </br>
+    </br>
+ 
+    <h1 style="font-size=100px;color: aliceblue ;font-family:"Open Sans", sans-serif;">
+      Weather Application
+    </h1>  
+    <div class="row" style="display:flex">
+      <input type = "text" class="input" id="Search" placeholder = "Search City"><br><br>
+      <button class="button" id= "search">Search</button>
+    </div>  
+<!-- <input type = "text" class="input" id="location" placeholder = "Location"><br><br>
+<button class="button" id= "search">Search</button> -->
+<button class="button" id="current">Current Location</button>
+<span id = "error"></span>
+<p></p>
 </div>
+
+<div id= "currentWeather" class="weather_data" >
+    
+<div id ="weather_info" class= "title">
+    
+     <div class="weather">
+      <div class="city" id="location"></div>
+      <div class="day">
+        <p id="dateTime"></p>
+        
+      </div>
+      <div class="wheather">
+        <h2 class="temp" id="temperatureC"></h2>
+        <h2>&nbsp|&nbsp</h2>
+        <h2 id="temperatureF"></h2>
+          
+        <img  alt="" class="icon" id="weatherIcon" />
+      
+      </div>
+      <div class="description" id="txtWord"></div>
+      <div class="humidity" id="humidity"></div>
+      <div class="precipitation" id="precipitation"></div>
+      <div class="wind" id="wind"></div>
+    </div>
+    
+     
+    
+    </div>
+    
+
+
+</div>
+    
+          
+    <div id= "weekForecast" class="weather_data" >
+          
+        </div>
+  
+    </div>
 </body>
 </html>
