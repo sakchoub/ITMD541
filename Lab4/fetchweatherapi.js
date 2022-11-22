@@ -42,7 +42,7 @@ console.log(data);
 
 }else{
     
-alert('Input Field should not be empty');
+alert('Enter a value');
 }
     
     });
@@ -64,7 +64,7 @@ $('#current').click(function(){
         }
     else{
         
-        alert("This browser don't support location. Try with different browser");
+        alert("Could not locate the location");
     }
     
     
@@ -89,7 +89,7 @@ success: function(data) {
     if (statses == 'fail')
         {
             
-            alert("Enter valid Location");
+            alert("Invalid Input");
             $("#location").val('');
         }
     
@@ -117,11 +117,11 @@ function disPlayError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
           
-      alert("Location Permissed denied by user");
+      alert("LPermission denied");
       break;
     case error.TIMEOUT:
     
-           alert("Connection Timeout. Try again later");  
+           alert("Connection Timeout");  
       break;
     case error.POSITION_UNAVAILABLE:
 
@@ -129,7 +129,7 @@ function disPlayError(error) {
       break;
   
     case error.UNKNOWN_ERROR:
-       alert("Miscellneous Error. Try again later.."); 
+       alert("Try again later"); 
       break;
   }
 }

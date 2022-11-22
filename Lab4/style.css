@@ -24,6 +24,7 @@
         height: 50;
         padding: 20px;
         text-align: center;
+        margin: -25px 0 0 -25px;
         color: rgb(29, 29, 82);
     }
     .title
@@ -31,7 +32,7 @@
         background: #000000ad;
         color: rgb(245, 180, 180);
         max-width: 500px;
-        margin:  3em;
+        margin:  5cm;
        display: inline-flex;
             text-align: center;
             align-items: center;
@@ -85,7 +86,7 @@
      width: 100%;
       display:block;
        align-items: center;
-            text-align: center;
+        text-align: center;
         }
           
     .wheather {
